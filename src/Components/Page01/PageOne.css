@@ -1,0 +1,26 @@
+.hero {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    row-gap: 500px;
+
+}
+
+.hero-left {
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 150px;
+}
+
+.hero-right h1 {
+    font-size: 50px;
+}
