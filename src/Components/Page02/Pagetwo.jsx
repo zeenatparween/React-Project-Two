@@ -72,8 +72,7 @@ const Pagetwo = () => {
                     <Button
                         onClick={() => setShowRules((prev) => !prev)}
                     >
-                        {showRules ? "Hide" : "Show"}
-                         Rules</Button>
+                        {showRules ? "Hide" : "Show" } Rules</Button>
 
                 </div>
                 {showRules && <ShowRules />}
